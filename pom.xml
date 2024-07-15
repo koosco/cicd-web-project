@@ -76,7 +76,6 @@
 
     </dependencies>
     <build>
-        <finalName>hello-world</finalName>
         <plugins>
             <!-- http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html -->
             <plugin>
