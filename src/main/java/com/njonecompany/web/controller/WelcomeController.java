@@ -41,4 +41,9 @@ public class WelcomeController {
         return "This is koo method";
     }
 
+    @ResponseBody
+    @GetMapping("/test")
+    public String test() {
+        return "This is test method";
+    }
 }
