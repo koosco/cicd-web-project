@@ -31,8 +31,14 @@ public class WelcomeController {
 
     @ResponseBody
     @GetMapping("/koosco")
-    public String koo() {
+    public String koosco() {
         return "HI this is koosco";
+    }
+
+    @ResponseBody
+    @GetMapping("/koo")
+    public String koo() {
+        return "This is koo method";
     }
 
 }
