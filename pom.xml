@@ -4,9 +4,7 @@
 		 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.njonecompany.web</groupId>
-    <artifactId>web</artifactId>
     <packaging>war</packaging>
-    <version>1.0</version>
     <name>cicd-web-project maven webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
