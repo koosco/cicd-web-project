@@ -28,4 +28,10 @@ public class WelcomeController {
         return "Hi, there";
     }
 
+    @ResponseBody
+    @Getmapping("/koosco")
+    public String koo() {
+        return "HI this is koosco";
+    }
+
 }
