@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.Date;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class WelcomeController {
@@ -29,7 +30,7 @@ public class WelcomeController {
     }
 
     @ResponseBody
-    @Getmapping("/koosco")
+    @GetMapping("/koosco")
     public String koo() {
         return "HI this is koosco";
     }
